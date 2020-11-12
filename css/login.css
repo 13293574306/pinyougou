@@ -1,0 +1,93 @@
+/*登录页面的样式*/
+.w {
+	width: 1200px;
+	margin: auto;
+}
+.header {
+	height: 82px;
+	border-bottom: 1px solid #b1191a;
+}
+.logo {
+	padding-top: 15px;
+}
+
+
+/* loginarea  区域*/
+.loginarea {
+	position: relative;
+	height: 600px;
+	background-image: url(../img/dljm.jpg);
+}
+.loginfrom {
+	position: absolute;
+	left: 400px;
+	top: 60px;
+	width: 310px;
+	height: 360px;
+	background-color: rgba(0, 0, 0, .4);
+	padding: 20px 38px 0 38px;
+}
+.loginfrom li {
+	margin-bottom: 15px;
+}
+.loginfrom ul li {
+	float: left;
+}
+.loginfrom .from1,
+.loginfrom .from2 {
+	font-size: 20px;
+}
+.loginfrom .from1 {
+	border-right: 2px solid blue;
+	margin-right: 50px;
+	padding-right: 70px;
+} 
+.loginfrom .zhanghao,
+.loginfrom .mima {
+	font-size: 20px;
+	color: red;
+}
+.loginfrom .inp {
+	width: 200px;
+	height: 30px;
+}
+.loginfrom .dlmm {
+	position: relative;
+}
+.mima img {
+	position: absolute;
+	border: 1px solid #ccc;
+	top: 14px;
+	right: 3px;
+}
+.over {
+	width: 200px;
+	height: 34px;
+	background-color: red;
+	margin: 50px;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+}
+.link {
+	margin-left: 80px;
+	color: #69f3e0;
+	font-size: 20px;
+}
+.link .huiyuan {
+	margin-left: 2px;
+}
+/* footer 区域 */
+.footer {
+	height: 120px;
+	text-align: center;
+	background-color: #16250871;
+	margin-top: 0;
+}
+.links {
+	margin-top: 20px;
+	height: 30px;
+}
+.copyright {
+	line-height: 20px;
+}

@@ -1,0 +1,376 @@
+.header {
+	height: 80px;
+}
+.header span {
+	float: left;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.set_inp {
+	float: right;
+ 	width: 540px;
+ 	height: 36px;
+ }
+ .set_inp input {
+ 	float: left;
+ 	padding-left: 15px;
+ 	width: 443px;
+ 	height: 32px;
+ 	border: 2px solid #B1191A;
+ }
+ .set_inp button {
+ 	float: left;
+	width: 74px;
+	height: 36px;
+	background-color: #B1191A;
+	color: #fff;
+ }
+ .main h2 {
+ 	height: 40px;
+ 	font-size: 16px;
+ 	color: #C71523;
+ }
+ .sellhd {
+ 	height: 34px;
+ 	line-height: 34px;
+ 	border: 1px solid #DDDDDD;
+ 	background-color: #F5F5F5;
+ }
+ .sellhd li {
+ 	float: left;
+ 	font-size: 12px;
+ 	color: #656565;
+ }
+ .sellhd input {
+ 	vertical-align: middle;
+ 	margin-left: 5px;
+ 	margin-right: 10px;
+ }
+ .sellhd li:nth-child(2) {
+ 	margin-left: 210px;
+ }
+ .sellhd li:nth-child(3) {
+ 	margin-left: 340px;
+ }
+ .sellhd li:nth-child(4),
+ .sellhd li:nth-child(5),
+ .sellhd li:last-child {
+ 	margin-left: 110px;
+ }
+ .boxhd {
+ 	height: 30px;
+ 	line-height: 30px;
+ 	padding-top: 15px;
+ 	border-bottom: 2px solid #DDDDDD;
+	margin-bottom: 20px;
+	
+ }
+ .boxhd a {
+	font-size: 15px;
+	font-weight: 700;
+ }
+ /* .boxhd input {
+ 	float: left;
+ 	margin: 7px 7px 0 5px;
+ } */
+ .czzy {
+ 	float: left;
+ 	width: 120px;
+ 	height: 18px;
+ 	background-color: #999;
+ 	color: red;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	line-height: 18px;
+	 margin-top: 5px;
+	 border: 1px solid blue;
+ }
+ .boxhd span {
+ 	float: right;
+ 	font-size: 12px;
+ 	color: #656565;
+ }
+ .boxhd span em {
+ 	color: #C71523;
+ }
+ .short {
+ 	position: relative;
+ 	height: 108px;
+ 	border: 1px solid #DDDDDD;
+ }
+ .short img {
+ 	border: 1px solid #EDEDED;
+ 	margin: 0 10px 0 18px;
+ }
+ .short input {
+ 	vertical-align: top;
+ }
+ .short li,
+ .short .p-price,
+ .short .p-sum {
+ 	position: absolute;
+ 	top: 14px;
+ 	left: 0;
+ 	font-size: 12px;
+ }
+ .short .p-price {
+	 left: 625px;
+ }
+ .short .p-sum {
+	 left: 930px;
+ }
+ .short li:first-child {
+ 	left: 5px;
+ }
+ .short li:nth-child(2) {
+ 	left: 125px;
+ }
+ .short li:nth-child(3) {
+ 	left: 380px;
+ }
+ .short li:nth-child(4) {
+ 	left: 620px;
+ }
+ .short li:nth-child(5) {
+ 	left: 750px;
+ }
+ .short li:nth-child(6) {
+ 	left: 930px;
+ }
+ .short li:nth-child(7) {
+ 	left: 1090px;
+ }
+ .sho-pro i {
+ 	float: left;
+ 	margin-right: 7px;
+ 	margin-top: 5px;
+ 	height: 17px;
+ 	width: 18px;
+ 	background: url(../img/setimg/001.gif) no-repeat;
+ }
+ .sho-pro span {
+ 	float: left;
+ 	color: #999;
+ 	margin-top: 5px;
+ }
+ .boxbd .special {
+ 	height: 200px;
+ }
+ .boxbd .special li:first-child,
+ .boxbd .special li:nth-child(2),
+ .boxbd .special li:nth-child(3) {
+ 	
+ 	top: 50px;
+ }
+ .boxbd .special li:nth-child(9) {
+ 	top: 155px;
+ 	left: 60px;
+ 	color: #999;
+ }
+ /* .short:hover {
+ 	background-color: #FEEDEF;
+ } */
+ .shotop {
+ 	margin-left: 5px;
+ }
+ .shotop h4 {
+ 	float: left;
+ 	width: 43px;
+ 	height: 18px;
+ 	border: 1px solid #C71523;
+ 	color: #C71523;
+ 	text-align: center;
+ 	line-height: 18px;
+ }
+ .shotop span {
+ 	float: left;
+ 	margin: 0 15px;
+ }
+ .shotop-a {
+ 	float: left;
+ 	width: 70px;
+ 	height: 20px;
+ 	color: #fff;
+ 	background-color:  #C71523;
+ 	text-align: center;
+ 	line-height: 20px;
+ 	margin-right: 10px;
+ } 
+ .youhuo {
+ 	width: 100px;
+ 	height: 30px;
+ 	text-align: center;
+ 	line-height: 30px;
+ 	color: #999;
+ }
+ .youhuo input {
+	width: 98px;
+	height: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.increment,
+.decrement {
+	position: absolute;
+	width: 15px;
+	height: 20px;
+	right: 0;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	text-align: center;
+	line-height: 20px;
+}
+.increment {
+	top: 0;
+	right: 0;
+}
+.decrement {
+	bottom: 0;
+	/*禁止鼠标样式*/
+	/* cursor: not-allowed;   pointer  小手    move  移动 */
+	top: 0;
+	left: 0;
+}
+ .lastset {
+ 	margin-top: 20px;
+ 	height: 50px;
+ 	border: 1px solid #DDDDDD;
+ } 
+ .lastset-l {
+ 	line-height: 50px;
+ }
+ .lastset-l input {
+	margin-left: 5px;
+	margin-right: 15px;
+	vertical-align: middle;
+ }
+ .lastset-l a {
+ 	margin-left: 18px;
+ }
+  .lastset-m em {
+  	font-size: 16px;
+  	color: #E50012;
+  }
+  .lastset-m p:last-child {
+  	margin-left: 150px;
+  }
+  .lastset-r a {
+  	display: inline-block;
+  	margin-left: 30px;
+  	line-height: 50px;
+  	text-align: center;
+  	font-size: 16px;
+  	width: 110px;
+ 	height: 50px;
+ 	background-color: #E50012;
+ 	color: #fff;
+  }
+  .delete-t {
+  	height: 50px;
+  	line-height: 50px;
+  	font-size: 12px;
+  }
+  .delete-b {
+  	height: 32px;
+  	line-height: 32px;
+  	background-color: #FFFDED;
+  	padding-left: 15px;
+  }
+  .delete-b span {
+  	float: left;
+  }
+  .delete-b span:nth-child(2) {
+  	margin-left: 350px;
+  }
+  .delete-b span:nth-child(3) {
+  	margin-left: 150px;
+  }
+  .delete-b span:last-child {
+  	float: right;
+  }
+  .delete-b span:last-child a {
+  	margin-left: 20px;
+  }
+  .rcd-hd {
+  	height: 38px;
+  	border: 1px solid #DDD;
+  	margin: 20px auto;
+  	background-color: #F1F1F1;
+  }
+  .rcd-hd a {
+  	float: left;
+  	width: 87px;
+  	height: 38px;
+  	font-size: 12px;
+  	line-height: 38px;
+  	text-align: center;
+  }
+  .rcd-hd li:first-child a {
+  	background-color: #E50012;
+  	color: #fff;
+  }
+  .rcd-bd {
+  	height: 267px;
+  	padding-left: 41px;
+  	position: relative;
+  }
+  .rcd-bd li a {
+  	float: left;
+  	width: 246px;
+  	height: 305px;
+  	border: 1px dashed #DDD;
+  	margin-left: -1px;
+  	margin-bottom: 25px;
+  }
+  .rcd-bd img {
+  	display: block;
+  	width: 81px;
+  	height: 165px;
+	margin: 20px auto 5px;
+  }
+  .rcd-bd h4 {
+  	font-size: 12px;
+  	margin: 0 20px;
+  	font-weight: 400;
+  }
+  .rcd-bd p {
+  	margin-bottom: 10px;
+  	text-align: center;
+  	color: #E50012;
+  }
+  .rcd-bd button {
+  	display: block;
+  	width: 120px;
+  	height: 35px;
+  	border: 1px solid #ccc;
+  	background-color: #fff;
+  	color: #666;
+  	margin: 0 auto;
+  }
+  .rcd-bd button {
+  	font-family: 'icomoon';
+  }
+  .rcd-arl,
+  .rcd-arr {
+  	position: absolute;
+  	top: 50%;
+  	margin-top: -25px;
+	width: 20px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	background-color: rgba(0,0,0,.3);
+	color: #fff;
+  }
+  .rcd-arl {
+  	left: 0;
+  }
+  .rcd-arr {
+  	right: 0;
+  }
+
+  /* 鼠标移动和点击哪个模块 这个模块就会变背景颜色 */
+  .check-cart-item {
+	  background-color: blanchedalmond;
+  }
